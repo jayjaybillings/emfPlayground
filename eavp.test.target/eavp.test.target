@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="eavp.test" sequenceNumber="5">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="gov.lbnl.visit.swt" version="1.0.0.201602101600"/>
+<repository location="http://eclipseice.ornl.gov/downloads/visit_java_client/1.0.0-SNAPSHOT/p2/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.apache.commons.collections.source" version="3.2.0.v2013030210310"/>
+<unit id="org.apache.commons.beanutils" version="1.8.0.v201205091237"/>
+<unit id="org.apache.commons.math" version="2.1.0.v201105210652"/>
+<unit id="ca.odell.glazedlists" version="1.9.0.v201303080712"/>
+<unit id="com.jcraft.jsch" version="0.1.53.v201508180515"/>
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150821153341/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.nebula.visualization.feature.feature.group" version="1.0.0.201605312033"/>
+<repository location="http://download.eclipse.org/nebula/releases/1.0.0/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.eavp.feature.feature.group" version="2.1.8.201607282033"/>
+<repository location="http://download.eclipse.org/eavp/builds/next"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.rcp.feature.group" version="4.4.2.v20150204-1700"/>
+<repository location="http://download.eclipse.org/releases/luna/"/>
+</location>
+</locations>
+</target>
